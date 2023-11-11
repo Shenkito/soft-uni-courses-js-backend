@@ -1,0 +1,13 @@
+<section id="viewCatalog" class="background-img">
+
+    <div class="added-electronics">
+        {{#each electronics}}
+        {{>electronicCards}}
+        {{else}}
+        <div class="guest">
+            There are no electronics found...
+        </div>
+        {{/each}}
+    </div>
+
+</section>
